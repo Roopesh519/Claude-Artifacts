@@ -52,9 +52,9 @@ End with:
 Run when the user provides a **person's name** and a **project or board name**.
 
 Example invocations:
-- `/PM/daily-check Priya in CC`
-- `/PM/daily-check John on Project Management`
-- `/PM/daily-check Rahul CC board`
+- `/PM/daily-check [team member name] in CC`
+- `/PM/daily-check [team member name] on Project Management`
+- `/PM/daily-check [team member name] CC board`
 
 ### Step 1 – Resolve the person
 Use Atlassian MCP to look up the person's account ID from the name provided.
