@@ -11,6 +11,7 @@ description: >
   "build a backlog for", "split this epic", "break this into stories", or any similar phrase
   requesting Agile story generation. Execute the full workflow automatically.
 compatibility: "No external MCPs required. Works standalone - input is provided directly in the chat."
+tags: [BA, agile, stories, epics, INVEST, SPIDR]
 ---
 
 # User Story Generator Skill
@@ -164,7 +165,7 @@ For each Epic, output stories using this structure:
 - [Any upstream stories, APIs, configurations, or third-party services this story requires]
 - [Write "None" if there are no dependencies]
 
-**Story Size Hint:** `[XS / S / M]`
+**Story Size Hint:** `[XS / S / M / L / XL]`
 *(Stories sized L or XL must be split further using SPIDR before entering a sprint)*
 
 ---
@@ -307,6 +308,8 @@ Conditions of Satisfaction are **business-level acceptance conditions** — not 
 - Notification service must be operational.
 
 **Story Size Hint:** `S`
+
+> 📝 **Note:** This example shows stories for E-1 only. E-2 (Guided Product Walkthrough) and E-3 (Team Invitation & Workspace Setup) would follow the exact same pattern — Personas → Epic description → Stories with COS, Out of Scope, Dependencies, and Size Hint.
 
 ---
 
